@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
+    "@types/react": "~18.3.12",
+    "babel-plugin-react-compiler": "^19.0.0-beta-201e55d-20241215",
+    "expo": "^52.0.16",
+    "expo-dev-client": "~5.0.6",
+    "react": "18.3.1",
+    "react-compiler-runtime": "^19.0.0-beta-201e55d-20241215",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-web": "~0.19.6",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3"
+  },
+  "name": "reanimted-compiler-repro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "reanimted-compiler-repro",
+    "slug": "reanimted-compiler-repro",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "experiments": {
+      "reactCompiler": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.reanimted-compiler-repro"
+    },
+    "android": {
+      "package": "com.reanimtedcompilerrepro"
+    }
+  }
+}
